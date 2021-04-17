@@ -1,0 +1,30 @@
+package com.learn.inheritance;
+
+public class ParentClass {
+	
+	int integerVar;
+	String stringVar;
+	Boolean booleanVar;
+	float floatVar;
+	
+	public ParentClass() {
+		
+	}
+	
+	public ParentClass(int integerVar, String stringVar, Boolean booleanVar, float floatVar) {
+		super();
+		this.integerVar = integerVar;
+		this.stringVar = stringVar;
+		this.booleanVar = booleanVar;
+		this.floatVar = floatVar;
+	}
+
+
+
+	public static void main(String[] args) {
+		
+		ParentClass parentObj = new ParentClass();
+		
+	}
+
+}
